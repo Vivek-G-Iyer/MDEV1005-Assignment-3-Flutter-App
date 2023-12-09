@@ -3,14 +3,14 @@ import 'Widget1.dart';
 import 'Widget2.dart';
 import 'Widget3.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(FlutterSecurity());
 
-class MyApp extends StatelessWidget {
+class FlutterSecurity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Main entry point for the application.
     return MaterialApp(
-      title: 'Flutter Example App',
+      title: 'Flutter Security App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: HomePage(),
     );
@@ -35,7 +35,7 @@ class HomePage extends StatelessWidget {
           children: [
             // Display a welcome message.
             SizedBox(height: 20),
-            Text('Welcome to App!', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Color(0xFF166534)), textAlign: TextAlign.center),
+            Text('Welcome to Flutter Security App!', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Color(0xFF166534)), textAlign: TextAlign.center),
             // Display an image based on the time of day.
             SizedBox(height: 20),
             Container(
